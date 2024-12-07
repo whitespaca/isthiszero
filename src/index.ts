@@ -6,6 +6,6 @@ export class IsThisZero {
     }
 
     public isthiszero(value: any): true | false {
-        return value === 0 || value === '0' ? true : false;
+        return value === 0 || value === '0' || value === 'zero' || value === 'Zero' || value === '영' ? true : false;
     }
 }
