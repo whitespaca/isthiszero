@@ -1,0 +1,28 @@
+{
+  "name": "isthiszero",
+  "version": "1.0.0",
+  "description": "Is This Zero?",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+      "build": "tsc",
+      "test": "echo \"No test specified\" && exit 0",
+      "prepare": "npm run build"
+  },
+  "keywords": [
+      "zero"
+  ],
+  "author": "whitespaca",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/whitespaca/isthiszero.git"
+  },
+  "bugs": {
+      "url": "https://github.com/whitespaca/isthiszero/issues"
+  },
+  "homepage": "https://github.com/whitespaca/isthiszero#readme",
+  "devDependencies": {
+      "typescript": "^5.2.2"
+  }
+}
