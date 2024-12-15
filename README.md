@@ -18,7 +18,7 @@ import { IsThisZero } from 'isthiszero';
 
 const checker = new IsThisZero();
 
-const values = [0, '0', 1, '1', null, undefined, 'zero', 10, ''];
+const values = [0, '0', 1, '1', null, undefined, 'zero', 10, '', 'शून्य'];
 
 values.forEach((value) => {
     const result = checker.isthiszero(value);
@@ -28,7 +28,7 @@ values.forEach((value) => {
 
 ## Contributing
 
-Contributions are welcome! Please submit issues or pull requests via [GitHub](https://github.com/whitespaca/isthiszero).
+Please submit issues or pull requests via [GitHub](https://github.com/whitespaca/isthiszero).
 
 ## License
 
